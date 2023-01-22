@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- CONTAINER -->
+    <div class="container">
+        <header><h1>🎮Rock Paper Scissor🎮</h1></header>
+        <!-- MAIN PLAYER -->
+        <div class="main">
+            <section class="player player--0 player--active draw" id="player--0">
+                <h2 class="name" id="name--1">👱Player 1</h2>
+                <p class="rps-1" id="rps-1"></p>
+                  <div class="current">
+                    <p class="current-label">Current</p>
+                    <p class="current-score" id="current--0">0</p>
+                  </div>
+                  
+                </section>
+                <section class="player player--1 player--active1 draw" id="player--1">
+                  <h2 class="name" id="name--2">👱Player 2</h2>
+                  <p class="rps-2" id="rps-2"></p>
+                  <div class="current">
+                    <p class="current-label">Current</p>
+                    <p class="current-score" id="current--1">0</p>
+                  </div>
+                
+                </section>
+                
+        </div>
+        <!-- RESULT SECTION -->
+        <div class="row result">
+          <div class="result">
+            <p></p>
+          </div>
+        </div>
+        <!-- IMAGE CHOICE -->
+        <div class="choices">
+            <div id="rock" class="choice">
+                <button id="rock-1">
+              <img id="NumOfImg" width="50" height="50" src="./IMAGES/image-1.png"/>
+            </button>
+              <span>Rock</span>
+            </div>
+            <div id="paper" class="choice">
+                <button id="paper-2">
+              <img id="NumOfImg" width="48" height="48" src="./IMAGES/image-2.png"/>
+            </button>
+              <span>Paper</span>
+            </div>
+            <div id="scissor" class="choice">
+                <button id="scissor-3">
+              <img id="NumOfImg" width="48" height="48" src="./IMAGES/image-3.png"/>
+            </button>
+      
+              <span>Scissor</span>
+            </div>
+
+    </div>
+   <div class="end-btn">
+    <input type="button" value="Clear" id="clear">
+      
+<input type="button" value="Start" onclick="myFunction()">
+    <input type="button" value="Restart" id="restart">
+  </div>
+
+   
+<script src="./script.js"></script>
+
+</body>
+
+</html>
