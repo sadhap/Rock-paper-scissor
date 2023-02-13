@@ -1,12 +1,17 @@
 # Rock-paper-scissor
-DEMO :
+DEMO :https://incredible-syrniki-eb90b9.netlify.app/
+
 Developed a responsive website for Rock, Paper, Scissor Game with
 JavaScript where user can play the game along with computer and the one
 who score the first 10 points will be declared as a winner.
+
+
 Technologies used:
  Html
  Css
  Java script
+
+
 Pseudo Code: 
  Start -> get user name and stored.
  Restart->Restart the game completely with name change.
